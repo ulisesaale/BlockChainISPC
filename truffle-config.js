@@ -1,5 +1,5 @@
 const HDWalletProvider = require('@truffle/hdwallet-provider');
-const infuraKey = "7c82811324474eeaa72bccd5d2dbba9";
+const infuraKey = "E3f5bl/3z/95/6X+rgEGx+3mQuKTzVjAHAaHYjTH9eaqrroF77fgQg";
 const mnemonic = "bike surge flock spray table enact ask pistol tag afraid gas wolf";
 
 module.exports = {
@@ -14,7 +14,7 @@ module.exports = {
     },
     development: {
       host: "127.0.0.1",
-      port: 8545, // Puerto de Ganache
+      port: 24013, // Puerto de Ganache
       network_id: "*" // Cualquier ID de red
     }
   },
